@@ -266,7 +266,7 @@ jobs:
           FASTLANE_KEY: ${{ secrets.FASTLANE_KEY }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
 
-      - run: cat /Users/runner/Library/Logs/gym/Runner-dev.log
+      - run: cat /Users/runner/work/LoopWorkspace/LoopWorkspace/buildlog/LoopKit-LoopWorkspace.log
         if: failure()
       
       # Upload to TestFlight
